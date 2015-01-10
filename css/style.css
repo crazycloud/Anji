@@ -1,0 +1,39 @@
+/*logo design */
+.logo-white-header{
+    color:#ffffff;
+background-color: rgba(0,0,0,.3); 
+padding: 5px 10px;
+font-family: 'Open Sans', sans-serif;}
+
+
+#header-text{
+color:#ffffff;
+    opacity:0;
+    padding:100px 0;
+    font-weight: 300;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+font-weight:400;
+}
+
+/* header styling*/
+#home-header{
+background: url(../img/bg1366x768.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   height:700px;
+}
+
+/*navigation link styling */
+.navbar-nav > li > a{
+color:#ffffff;
+}
+.navbar-nav > li > a:hover,
+.nav > li > a:focus
+{
+background-color: rgba(0,0,0,.1);
+
+}
