@@ -9,7 +9,7 @@ font-family: 'Open Sans', sans-serif;}
 #header-text{
 color:#ffffff;
     opacity:0;
-    padding:100px 0;
+    padding:8em 0;
     font-weight: 300;
 }
 
@@ -46,12 +46,14 @@ background: url(../img/footer.png) no-repeat center center;
 
 /* header styling*/
 #home-header{
-background: url(../img/bg1366x768.jpg) no-repeat center center;
+/*background: url(../img/bg1366x768.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;   height:700px;
-}
+    background-size: cover;  
+*/
+background-color:#FE4365;
+	}
 
 /*navigation link styling */
 .navbar-nav > li > a{
