@@ -18,7 +18,8 @@
     },
 
   Preloader: function() {
-        $(window).load(function() {
+        $(window).load(function(){ 
+		/*$('#preloader').delay(500).fadeOut('slow'); */
             $('body').delay(500).css({'overflow':'visible'});
             setTimeout(function(){$('#header-text').addClass('animated fadeInDown')},700);
             setTimeout(function(){$('#home_image').addClass('animated fadeInUp')},900);
