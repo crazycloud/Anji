@@ -51,6 +51,8 @@ font-weight:300;
 background-color:#FAC421;
 
 }
+.navbar-toggle .icon-bar{
+background-color:#fff;}
 
 .marketing .feature-sub{
 color:#777;
