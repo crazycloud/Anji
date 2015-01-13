@@ -52,6 +52,10 @@ background-color:#FAC421;
 
 }
 
+.marketing .feature-sub{
+color:#777;
+padding:4px 10%;
+}
 /* header styling*/
 #home-header{
 /*background: url(../img/bg1366x768.jpg) no-repeat center center;
