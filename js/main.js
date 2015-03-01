@@ -6,8 +6,8 @@
     * Init Function
     */
     init: function() {
-        App.HomeOpacity();
-       App.Preloader();
+       /* App.HomeOpacity();
+       */App.Preloader();
 /*       
 	   App.ScrollToContact();
         App.ScrollBack();

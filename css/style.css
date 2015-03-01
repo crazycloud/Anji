@@ -38,6 +38,12 @@ letter-spacing:.20em;
 text-transform:uppercase;
 }
 
+.feature_main{
+font-size:1.2em;
+text-align:center;
+padding-top:50px;
+}
+
 #header-text{
 color:#ffffff;
     opacity:0;
