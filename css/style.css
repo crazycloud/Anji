@@ -37,7 +37,9 @@ font-size:20px;
 letter-spacing:.20em;
 text-transform:uppercase;
 }
-
+.feature_img{
+padding-top:30px;
+}
 .feature_main{
 font-size:1.2em;
 text-align:center;
