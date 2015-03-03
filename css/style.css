@@ -16,7 +16,7 @@ h1 {
 	font-size: 50px;
 }
 
-.features h2{
+.feature_main h2, .features h2{
 	font-weight:bold;
 	text-transform:uppercase;
 	letter-spacing:.2rem;
