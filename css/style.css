@@ -6,6 +6,7 @@ padding: 5px 10px;
 font-family: 'Lato', sans-serif;
 }
 footer .fa-heart{
+	color:red;
 	-webkit-animation-iteration-count:infinite;
 }
 
