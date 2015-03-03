@@ -19,12 +19,13 @@ h1 {
 .features h2{
 	font-weight:bold;
 	text-transform:uppercase;
+	letter-spacing:.2rem;
 }
 
 p {
 line-height:2rem;
 margin-bottom:20px;
-font-size:1.8rem;
+font-size:1.6rem;
 }
 			
 /***** Footer section **********/
