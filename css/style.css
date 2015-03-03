@@ -6,7 +6,22 @@ font-size: 100%;
 color: #333;	
 }
 
+h1,h2,h3,h4{
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+color: #333;	
+}
 
+h1 {
+	font-size: 50px;
+}
+
+p {
+line-height:1.5em;
+margin-bottom:20px;
+font-size:1.6rem;
+}
+			
 /***** Footer section **********/
 footer .fa-heart{
 	color:red;
@@ -24,9 +39,7 @@ text-align: center;
 }
 
 /* Titles */
-h1 {
-	font-size: 50px;
-}
+
 
 /********Header***************/
 #home-header{
@@ -51,8 +64,8 @@ margin-bottom:20px;
 .header-div p{
 color:#000;
 padding-bottom:10px;
-font-size:1.2rem;
-letter-spacing:.20rem;
+font-size:1.6rem;
+letter-spacing:.30rem;
 text-transform:uppercase;
 }
 /****************Sections**********************/
@@ -235,10 +248,7 @@ position:absolute;
 			/* End */
 			
 			
-			p{
-			line-height:1.5em;
-			margin-bottom:20px;
-			}
+		
 .navbar-default {
 /*	background-color: #3498db;
 	*/border-color: transparent;
