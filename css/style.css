@@ -16,10 +16,15 @@ h1 {
 	font-size: 50px;
 }
 
+.features h2{
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
 p {
-line-height:1.5em;
+line-height:2rem;
 margin-bottom:20px;
-font-size:1.6rem;
+font-size:1.8rem;
 }
 			
 /***** Footer section **********/
