@@ -57,7 +57,7 @@ min-height:600px;
 }
 #header-text{
 color:#ffffff;
-font-size:40px;
+font-size:3.6rem;
 margin-bottom:20px;
 }
 
@@ -138,7 +138,7 @@ letter-spacing: 1px;
 text-align: center;
 text-decoration: none;
 text-transform: uppercase;
-font-size: 1rem;
+font-size: 1.6rem;
 -moz-transition: all 0.35s ease-in-out;
 -webkit-transition: all 0.35s ease-in-out;
 -o-transition: all 0.35s ease-in-out;
