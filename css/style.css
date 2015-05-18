@@ -37,7 +37,9 @@ font-size:1.6rem;
 /***** Footer section **********/
 footer .fa-heart{
 	color:red;
+	font-size:2.5rem;
 	-webkit-animation-iteration-count:infinite;
+
 }
 footer{
 background-color: #F1F1F1;
