@@ -81,6 +81,10 @@ font-size:1.6rem;
 letter-spacing:.30rem;
 text-transform:uppercase;
 }
+
+.header-video{
+	margin-top:15%;
+}
 /****************Sections**********************/
 /***********Main Image section ******/
 .feature_main{
