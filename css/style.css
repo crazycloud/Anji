@@ -6,6 +6,7 @@ font-size: 100%;
 color: #333;	
 }
 
+/******Headings******/
 h1,h2,h3,h4{
 font-family: 'Lato', sans-serif;
 font-weight: 300;
@@ -16,18 +17,18 @@ h1 {
 	font-size: 50px;
 }
 
-.feature_main h2, .features h2{
+h2{
 	font-weight:bold;
 	text-transform:uppercase;
 	letter-spacing:.2rem;
 }
 
-#features_1{
+#features_1, #profile{
 	background:#ebebeb;
 	border-bottom:1px solid #ddd;
 }
 
-
+/***** paragraphs **********/
 p {
 /*line-height:2rem;*/
 margin-bottom:20px;
@@ -41,6 +42,7 @@ footer .fa-heart{
 	-webkit-animation-iteration-count:infinite;
 
 }
+
 footer{
 background-color: #F1F1F1;
 border-top: 1px solid #E0E0E0;
@@ -136,32 +138,34 @@ background:#F8931F;
 #feature_3 h2
 {
 color:#fff;
-
 }
 
 
 /***********Button and Link Styles************/
 .link_block{
-margin:20px 0px;
 }
 
 .link_btn {
 border-radius: none;
 border: 2px solid;
 border-color: #fff;
-color: #fff;
-cursor: pointer;
 padding: 0.90em 1.2em;
 letter-spacing: 1px;
 text-align: center;
 text-decoration: none;
 text-transform: uppercase;
+cursor: pointer;
+color: #fff;
 font-size: 1.6rem;
 -moz-transition: all 0.35s ease-in-out;
 -webkit-transition: all 0.35s ease-in-out;
 -o-transition: all 0.35s ease-in-out;
 -ms-transition: all 0.35s ease-in-out;
 transition: all 0.35s ease-in-out;
+}
+
+.link-black {
+color:#000;
 }
 
 .link_btn:hover,.link_btn :focus {color:#e15b5f; background-color:#fff;text-decoration:none;}

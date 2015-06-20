@@ -7,9 +7,10 @@
     */
     init: function() {
        /* App.HomeOpacity();
-       */App.Preloader();
+       App.Preloader();*/
 /*       
 	   App.ScrollToContact();
+        App.ScrollBack();
         App.ScrollBack();
  
         
