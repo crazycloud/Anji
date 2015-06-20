@@ -44,7 +44,7 @@ footer .fa-heart{
 }
 
 footer{
-background-color: #F1F1F1;
+background-color: #FEA18F;
 border-top: 1px solid #E0E0E0;
 color: #b0b0b0;
 margin-top: 100px;
@@ -58,7 +58,10 @@ text-align: center;
 
 /********Header***************/
 #home-header{
-background: url(../img/bg.jpg) no-repeat center center;
+/*background: url(../img/bg.jpg) no-repeat center center;
+
+*/
+background-color:#FEAFBB;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -85,7 +88,7 @@ text-transform:uppercase;
 }
 
 .header-video{
-	margin-top:20%;
+	margin-top:13%;
 }
 /****************Sections**********************/
 /***********Main Image section ******/
