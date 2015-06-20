@@ -44,7 +44,7 @@ footer .fa-heart{
 }
 
 footer{
-background-color: #FEA18F;
+background-color: #F1F1F1;
 border-top: 1px solid #E0E0E0;
 color: #b0b0b0;
 margin-top: 100px;
@@ -61,7 +61,8 @@ text-align: center;
 /*background: url(../img/bg.jpg) no-repeat center center;
 
 */
-background-color:#FEAFBB;
+background-color:#FEA18F; /*#FEAFBB;
+*/
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
