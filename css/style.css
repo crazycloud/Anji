@@ -61,7 +61,7 @@ text-align: center;
 /*background: url(../img/bg.jpg) no-repeat center center;
 
 */
-background-color:#FEA18F; /*#FEAFBB;
+background-color:#FFD34E; /*#FEA18F; #FEAFBB;
 */
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -75,7 +75,7 @@ min-height:600px;
     margin-bottom:20%;
 }
 #header-text{
-color:#ffffff;
+color:#FFFAD5;
 font-size:3.6rem;
 margin-bottom:20px;
 }
@@ -187,10 +187,14 @@ text-align:center;
 }
 
 .divider-small {
-background-color: #FF5252;
+background-color: #DB9E36;
 height: 2px;
 width: 40px;
 margin: auto auto 20px;
+}
+
+.divider-white{
+background-color:#fff;
 }
 
 
