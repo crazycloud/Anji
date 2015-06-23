@@ -293,3 +293,13 @@ position:absolute;
 	font-size:1.5rem;
 }
 
+/* for individual pages*/	
+/* For Past events page*/
+
+.page-header{
+background:url(../img/past_event_header.jpg) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;  
+}
