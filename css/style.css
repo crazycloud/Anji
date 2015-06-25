@@ -32,7 +32,7 @@ h2{
 p {
 /*line-height:2rem;*/
 margin-bottom:20px;
-font-size:1.6rem;
+font-size:1.7rem;
 }
 			
 /***** Footer section **********/
@@ -134,10 +134,11 @@ color:#ffffff;
 
 
 #feature_3{
-background-color:#192024;
+background-color:#c816ac; /*#192024;
+*/
 color:#fff;
-background:#F8931F;
-}
+/*background:#F8931F;
+*/}
 
 #feature_3 h2
 {
