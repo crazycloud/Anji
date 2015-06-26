@@ -18,7 +18,7 @@ h1 {
 }
 
 h2{
-	font-weight:bold;
+	font-weight:400;
 	text-transform:uppercase;
 	letter-spacing:.2rem;
 }
@@ -33,6 +33,7 @@ p {
 /*line-height:2rem;*/
 margin-bottom:20px;
 font-size:1.7rem;
+font-weight:300;
 }
 			
 /***** Footer section **********/
@@ -71,13 +72,14 @@ min-height:600px;
 }
 	
 .header-div{
-    margin-top:50%;
+    margin-top:60%;
     margin-bottom:20%;
 }
 #header-text{
 color:#FFFAD5;
-font-size:3.6rem;
+font-size:3.2rem;
 margin-bottom:20px;
+padding-bottom:15px;
 }
 
 .header-div p{
@@ -155,7 +157,7 @@ border-radius: none;
 border: 2px solid;
 border-color: #fff;
 padding: 0.90em 1.2em;
-letter-spacing: 1px;
+letter-spacing: .36rem;
 text-align: center;
 text-decoration: none;
 text-transform: uppercase;
@@ -173,7 +175,7 @@ transition: all 0.35s ease-in-out;
 color:#000;
 }
 
-.link_btn:hover,.link_btn :focus {color:#e15b5f; background-color:#fff;text-decoration:none;}
+.link_btn:hover,.link_btn :focus {color:#E82076; background-color:#fff;text-decoration:none;}
 
 /***********Helper Classes*************/
 .divider {
