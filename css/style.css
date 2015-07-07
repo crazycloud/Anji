@@ -32,7 +32,7 @@ h2{
 p {
 /*line-height:2rem;*/
 margin-bottom:20px;
-font-size:1.6rem;
+font-size:1.5rem;
 font-weight:300;
 }
 			
@@ -294,8 +294,11 @@ position:absolute;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: black;
-	font-size:1.5rem;
+	color: #293132;
+	font-size:1.2rem;
+  text-transform:uppercase;
+  font-weight:400;
+
 }
 
 /* for individual pages*/	
