@@ -18,6 +18,8 @@ h1 {
 }
 
 h2{
+  font-family:'Playfair Display';
+  font-style:italic;
 	font-weight:700;
 	text-transform:uppercase;
 	letter-spacing:.2rem;
@@ -33,7 +35,7 @@ h2{
 p {
 /*line-height:2rem;*/
 margin-bottom:20px;
-font-size:1.5rem;
+font-size:1.6rem;
 font-weight:300;
 }
 			
@@ -85,7 +87,7 @@ margin-bottom:1rem;
 
 .header-div p{
 color:#000;
-opacity:.4;
+opacity:.5;
 padding-left:35px;
 padding-right:20px;
 padding-bottom:30px;
