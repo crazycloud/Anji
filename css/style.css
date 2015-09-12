@@ -294,31 +294,39 @@ position:absolute;
 			
 			
 		
-.navbar-default {
+.navbar-custom {
 /*	background-color: #3498db;
 	*/
 background-color: transparent;
   border-color: transparent;
 }
 
-.navbar-default .navbar-brand {
+.navbar-custom .navbar-brand {
 	color: black;
 }
 
 .navbar-brand {
-  letter-spacing: .2rem;
+  letter-spacing: .3rem;
   font-size:1.6rem;
 }
 
-.navbar-default .navbar-nav > li > a {
-	color: #293132;
-	font-size:1.2rem;
+.navbar-custom .navbar-nav > li > a {
+	color:#000 ;
+	font-size:1rem;
   letter-spacing: .2rem;
   text-transform:uppercase;
   font-weight:400;
 
 }
 
+.navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover{
+  color:#777;
+  background-color: transparent;
+}
+
+.navbar-toggle .icon-bar{
+  background-color: #000;
+}
 /* for individual pages*/	
 /* For Past events page*/
 /*
@@ -341,4 +349,23 @@ padding:0px !important;
 
 .bottom-margin{
   margin-bottom:20px;
+}
+
+
+@media (max-width:767px){
+  .header-div{
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+html{
+  font-size:9px;
+}
+
+.navbar-custom{
+/*box shadow only for visible background nav-transparent overrides the border for transparent bg*/
+  webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+         box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
 }
