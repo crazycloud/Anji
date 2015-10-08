@@ -7,21 +7,14 @@ color: #333;
 }
 
 /******Headings******/
-h1,h2,h3,h4{
-font-family: 'Lato', sans-serif;
-font-weight: 300;
-color: #333;	
-}
 
 h1 {
 	font-size: 50px;
 }
 
 h2{
-  font-family:'Playfair Display';
+  font-family:'Pacifico';
   font-style:italic;
-	font-weight:700;
-	text-transform:uppercase;
 	letter-spacing:.2rem;
 }
 
@@ -34,9 +27,10 @@ h2{
 /***** paragraphs **********/
 p {
 /*line-height:2rem;*/
-margin-bottom:20px;
+font-family:'Open Sans';
+margin-bottom:35px;
 font-size:1.6rem;
-font-weight:300;
+line-height:2.5rem;
 }
 			
 /***** Footer section **********/
@@ -82,19 +76,21 @@ min-height:600px;
 color:#000;
 font-weight:100;
 font-size:7rem;
-margin-bottom:1rem;
+margin-bottom:3rem;
+font-family:Pacifico;
 }
 
 .header-div p{
-color:#000;
-opacity:.5;
+color:#444;
 padding-left:35px;
 padding-right:20px;
 padding-bottom:30px;
 font-size:1.4rem;
+line-height:2.5rem;
 font-weight:400;
-letter-spacing:.30rem;
+letter-spacing:.10rem;
 text-transform:uppercase;
+font-family:'Lato';
 }
 
 .header-video{
@@ -189,8 +185,8 @@ color:#000;
 
 /***********Helper Classes*************/
 .divider {
-background-color: #333;
-height: 3px;
+background-color: #000;
+height: 6px;
 width: 35px;
 margin: 40px auto;
 margin-top:20px;
