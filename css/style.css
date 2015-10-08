@@ -365,3 +365,34 @@ html{
          box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
 }
 }
+
+
+/*navbar animation*/
+.navbar-toggle .icon-bar {
+  transition: all 0.2s;
+}
+
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+   transform-origin: 10% 90%;
+ }
+
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
