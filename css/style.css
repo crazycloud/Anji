@@ -57,10 +57,9 @@ text-align: center;
 /********Header***************/
 #home-header{
 /*background: url(../img/bg.jpg) no-repeat center center;
-
+FFD34E #FEA18F #FEAFBB 
 */
-background-color:#FFD34E; /*#FEA18F; #FEAFBB;
-*/
+background-color: #F5D5C8;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
