@@ -57,9 +57,9 @@ text-align: center;
 /********Header***************/
 #home-header{
 /*background: url(../img/bg.jpg) no-repeat center center;
-FFD34E #FEA18F #FEAFBB 
+F5D5C8 FFD34E #FEA18F #FEAFBB 
 */
-background-color: #F5D5C8;
+background-color: #C6E5D9;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -77,6 +77,8 @@ font-weight:100;
 font-size:7rem;
 margin-bottom:3rem;
 font-family:Pacifico;
+font-style:italic;
+text-shadow:2px 2px 4px rgba(0,0,0,.2);
 }
 
 .header-div p{
