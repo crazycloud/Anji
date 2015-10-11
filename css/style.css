@@ -57,9 +57,9 @@ text-align: center;
 /********Header***************/
 #home-header{
 /*background: url(../img/bg.jpg) no-repeat center center;
-F5D5C8 FFD34E #FEA18F #FEAFBB 
+C6E5D9 F5D5C8 FFD34E #FEA18F #FEAFBB 
 */
-background-color: #C6E5D9;
+background-color: #F5D5C8;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -299,7 +299,7 @@ background-color: transparent;
 }
 
 .navbar-custom .navbar-brand {
-	color: black;
+	color: white;
 }
 
 .navbar-brand {
