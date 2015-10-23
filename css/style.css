@@ -59,7 +59,7 @@ text-align: center;
 /*background: url(../img/bg.jpg) no-repeat center center;
 C6E5D9 F5D5C8 FFD34E #FEA18F #FEAFBB 
 */
-background-color: #F5D5C8;
+background-color: #FAE4DA;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -72,7 +72,7 @@ min-height:600px;
     margin-bottom:10%;
 }
 #header-text{
-color:#000;
+color:#3B3B3B;
 font-weight:100;
 font-size:7rem;
 margin-bottom:3rem;
