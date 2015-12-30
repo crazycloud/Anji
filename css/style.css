@@ -59,7 +59,7 @@ text-align: center;
 /*background: url(../img/bg.jpg) no-repeat center center;
 C6E5D9 F5D5C8 FFD34E #FEA18F #FEAFBB 
 */
-background-color: #FAE4DA;
+background-color: #F9EEE8;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -72,13 +72,15 @@ min-height:600px;
     margin-bottom:10%;
 }
 #header-text{
-color:#3B3B3B;
+/*color:#3B3B3B;*/
+color:#fff;
 font-weight:100;
 font-size:7rem;
 margin-bottom:3rem;
 font-family:Pacifico;
 font-style:italic;
-text-shadow:2px 2px 4px rgba(0,0,0,.2);
+letter-spacing:2px;
+/*text-shadow:2px 2px 4px rgba(0,0,0,.2);*/
 }
 
 .header-div p{
@@ -87,9 +89,9 @@ padding-left:35px;
 padding-right:20px;
 padding-bottom:30px;
 font-size:1.4rem;
-line-height:2.5rem;
+line-height:3rem;
 font-weight:400;
-letter-spacing:.10rem;
+letter-spacing:.4rem;
 text-transform:uppercase;
 font-family:'Lato';
 }
@@ -160,7 +162,7 @@ color:#000;
 .link_btn {
 /*border: 2px solid;
 border-color: #fff;*/
-background-color: #000;
+background-color: #A8ECCF;
 padding: 1.2em 2em;
 letter-spacing: .36rem;
 text-align: center;
