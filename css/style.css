@@ -78,9 +78,8 @@ font-weight:100;
 font-size:7rem;
 margin-bottom:3rem;
 font-family:Pacifico;
-font-style:italic;
 letter-spacing:2px;
-/*text-shadow:2px 2px 4px rgba(0,0,0,.2);*/
+text-shadow:4px 4px 0px rgba(0,0,0,0.1);
 }
 
 .header-div p{
