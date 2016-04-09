@@ -64,7 +64,7 @@ background-color: #F9EEE8;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;  
-min-height:600px;
+/*min-height:600px;*/
 }
 	
 .header-div{
