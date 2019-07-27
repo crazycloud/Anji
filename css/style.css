@@ -162,7 +162,7 @@ color:#000;
 /*border: 2px solid;
 border-color: #fff;*/
 background-color: #A8ECCF;
-padding: 1.2em 2em;
+padding: .5em 2em;
 letter-spacing: .36rem;
 text-align: center;
 text-decoration: none;
@@ -398,3 +398,16 @@ html{
   transform: rotate(0);
 }
 
+
+.instaimg {
+  margin: 3px;
+}
+
+.load_more {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.header-text{
+  margin-bottom: 35px;
+}

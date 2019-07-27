@@ -130,9 +130,9 @@
     <section id="feature_main" class="feature_main">
         <div class="container">
             <div class="row wow animated zoomIn" >
-                <div class="col-md-12 ">
+                <div class="col-md-12 header-text">
                     <h2> Curious to know more?</h2>
-                    <div class="divider"></div>
+                    <!-- <div class="divider"></div> -->
                 </div>
                 <div class="col-md-8 col-md-offset-2 " >
                     <p>Throwing grand parties on any occasion seems to be very enchanting dream. Who doesn't want to make a birthday, a wedding or any occasion the special day of their life, to make the day a lifetime memory. But let's not forget that there are also people who dream of education, food and shelter all their life. Parents who find it hard to finance their children's marriage. </p>
@@ -146,9 +146,11 @@
     <section id="features_1" class="features">
         <div class="container">
             <div class="row centered wow animated zoomIn">
-                <div class="col-md-12">
-                    <h2>What People are saying</h2>
-                    <div class="divider"></div>
+                <div class="col-md-12 ">
+                    <div class="header-text">
+                    <h2 >What People are saying</h2>
+                    </div>
+                    <!-- <div class="divider"></div> -->
                     <div class="col-md-4">
                         <i class="fa fa-quote-left fa-2x pull-left"></i>
                         <p>I just wanted to say a huge thank you for making my child's birthday great.</p>
@@ -171,9 +173,9 @@
     <section id="about" class="features">
         <div class="container marketing ">
             <div class="row centered">
-                <div class="col-md-12 wow animated zoomIn">
+                <div class="col-md-12 header-text wow animated zoomIn">
                     <h2>Spice up your events</h2>
-                    <div class="divider"></div>
+                    <!-- <div class="divider"></div> -->
                 </div>
             </div>
             <div class="row">
@@ -201,9 +203,9 @@
     <section id="feature_3" class="features ">
         <div class="container">
             <div class="row ">
-                <div class="col-md-8 col-md-offset-2 wow animated zoomIn">
-                    <h2> Stop Worrying & Start Enjoying</h2>
-                    <div class="divider"></div>
+                <div class="col-md-8 col-md-offset-2  wow animated zoomIn">
+                    <h2 class="header-text "> Stop Worrying & Start Enjoying</h2>
+                    <!-- <div class="divider"></div> -->
                     <p>If you want to make your event memorable and special but your pocket is stopping from doing so - Stop worrying and reach out to me. I will plan and host your event by adding colours of fun and happiness.</p>
                     <div>Stop Worrying and Enjoy your Event</div>
                     <!-- <div class="col-md-6 " >
@@ -216,12 +218,18 @@
     <section id="videos" class="features">
         <div class="container">
             <div class="row">
-            <h2> See for yourself</h2>
-                    <div class="divider"></div>
+            <h2 class="header-text"> See for yourself</h2>
+                    <!-- <div class="divider"></div> -->
                     <p style="margin-bottom:40px;">Photos &Videos from some of the events that I hosted in the past.</p>
-              <div class="col-md-10 col-md-offset-1 ">
+              	<div class="col-md-10 col-md-offset-1 ">
                     <img src="img/canva_image.png" alt="Emcee Anjali For Corporate Events" class="center-block img-responsive feature_img">
                 </div>
+                <div class="col-md-10 col-md-offset-1 ">
+                    
+                    <div id="instafeed" class="center-block img-responsive insta-grid"></div>
+                     <div id ="load-more" class="load_more link_block text-center"> <a class="link_btn"> Load More </a> </div>
+                </div>
+
                 <div class="col-md-6 col-md-offset-3 " style="margin-top:10px;">                    
                     <div class="embed-responsive embed-responsive-16by9 wow animated flipInY">
                         <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Twonbhcqf-4?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -234,8 +242,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 wow animated zoomIn">
-                    <h2> Profile</h2>
-                    <div class="divider"></div>
+                    <h2 class="header-text"> Profile</h2>
+                    <!-- <div class="divider"></div> -->
                     <p> You can download PDF file of my Emcee Profile here.</p>
                     <p style="margin-bottom:40px;"> It lists some of the events that I have done in the past along with snaps and other details.</p>
                     <div class="link_block text-center"> <a class="link_btn" href="emcee_anjali.pdf" download="Anjali_Emcee.pdf">Download PDF Profile</a> </div>
@@ -246,8 +254,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 wow animated zoomIn">
-                    <h2> Get in touch</h2>
-                    <div class="divider"></div>
+                    <h2 class="header-text"> Get in touch</h2>
+                    <!-- <div class="divider"></div> -->
                     <div>
                  <!--   <form action="https://formspree.io/creativekalpana1@gmail.com"
       method="POST">
@@ -264,6 +272,7 @@
             </div>
         </div>
     </section>
+
     <!--   
   <div class="ssk-sticky ssk-left ssk-center ssk-lg">
     <a href="" class="ssk ssk-facebook"></a>
@@ -289,14 +298,43 @@
     <script src="js/wowmin.js"></script>-->
     <!--<script type="text/javascript" src="js/social-share-kit.js"></script>-->
     <script src="js/wowmin.js"></script>
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
     <script>
     new WOW().init();
+    var loadButton = document.getElementById('load-more');
+    
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '1560553391',
+        tagName: 'emceeanjali',
+        accessToken: '1560553391.1677ed0.c1ee3edcf6c0468f9fd853c353aa147f',
+        template: '<a href="{{link}}"><img src="{{image}}"  class="instaimg"/></a>',
+         filter: function(image) {
+            return image.tags.indexOf('emceeanjali') >= 0;
+        },
+        after: function() {
+            // disable button if no more results to load
+            if (!this.hasNext()) {
+                loadButton.setAttribute('disabled', 'disabled');
+            }
+        },
+        limit:19
+        //resolution: "low_resolution",
+    });
+
+      // bind the load more button
+    loadButton.addEventListener('click', function() {
+        feed.next();
+    });
+
+    feed.run();
     /*SocialShareKit.init();*/
     </script>
     <!-- Latest compiled and minified JavaScript -->
     <!--<script src="js/bootstrap.js">-->
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    
 </body>
 
 </html>
