@@ -167,7 +167,7 @@ color:#000;
 /*border: 2px solid;
 border-color: #fff;*/
 background-color: #A8ECCF;
-padding: .5em 2em;
+padding: .7em 1em;
 letter-spacing: .36rem;
 text-align: center;
 text-decoration: none;
@@ -188,7 +188,7 @@ transition: all 0.35s ease-in-out;
 color:#000;
 }
 
-.link_btn:hover,.link_btn :focus {color:#E82076; background-color:#fff;text-decoration:none;}
+.link_btn:hover, .link_btn:focus, .link_btn:active {color:#E82076; background-color:#fff;text-decoration:none;}
 
 /***********Helper Classes*************/
 .divider {
